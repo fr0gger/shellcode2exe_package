@@ -6,7 +6,8 @@ It allows to convert a shellcode in an executable file.
 
 ## Usage
 
-'''Shellcode to executable converter
+```Python
+Shellcode to executable converter
 by Mario Vilas (mvilas at gmail dot com)
 
 Usage:
@@ -27,4 +28,5 @@ Options:
   -s, --asciifile       enable ascii entry in input file
   -d, --unicodecmd      enable unicode entry in command line (e.g. -d
                         '%u9090')
-  -u, --unicodefile     enable unicode entry in input file '''
+  -u, --unicodefile     enable unicode entry in input file
+  ```
