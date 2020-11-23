@@ -6,7 +6,7 @@ It allows to convert a shellcode in an executable file.
 
 ## Usage
 
-```Python
+```
 Shellcode to executable converter
 by Mario Vilas (mvilas at gmail dot com)
 
@@ -23,10 +23,8 @@ Options:
   -h, --help            show this help message and exit
   -a ARCH, --arch=ARCH  target architecture [default: i386]
   -o OS, --os=OS        target operating system [default: windows]
-  -c, --asciicmd        enable ascii entry in command line (e.g. -c
-                        '\x90\x90')
+  -c, --asciicmd        enable ascii entry in command line (e.g. -c '\x90\x90')
   -s, --asciifile       enable ascii entry in input file
-  -d, --unicodecmd      enable unicode entry in command line (e.g. -d
-                        '%u9090')
+  -d, --unicodecmd      enable unicode entry in command line (e.g. -d '%u9090')
   -u, --unicodefile     enable unicode entry in input file
   ```
